@@ -141,7 +141,7 @@ class WorkOrderManager:
 
 def main():
     while not login():
-        # For invalid login cases, prompts user to try again
+        # For invalid login cases, prompts the user to try again
         print("Invalid username and/or password"
               "\nPlease try again.")
 
